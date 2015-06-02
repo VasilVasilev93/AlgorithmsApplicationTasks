@@ -28,9 +28,9 @@ def deCrypt(string):
 
 def main():
 	string = input("Enter encrypted string: ")
-	deCrypt(string)
+	print(deCrypt(string))
 
 
 
 if __name__ == '__main__':
-	main():
+	main()
